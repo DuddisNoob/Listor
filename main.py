@@ -1,7 +1,7 @@
 
 c = input("Hur många spelare: ")
 n = int(c)
-playerhealth = []
+playerhealth: list = []
 playermagic = []
 playertype = []
 i = 0
@@ -32,3 +32,7 @@ def totalsum(a):
     i += 1
   return ta
 print(totalsum(playerhealth))
+
+print("Hello")
+
+
